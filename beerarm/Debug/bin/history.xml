@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.4.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=beerarm.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\beerarm -TC:\CooCox\CoIDE\configuration\ProgramData\beerarm/arm-gcc-link.ld -g">
+      <target file="beerarm.elf" lastModified="157492d56e8">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="15749096baa"/>
+         <source file="..\obj\tm_stm32f4_ds18b20.o" lastModified="157490aa886"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15749096c33"/>
+         <source file="..\obj\main.o" lastModified="157492d54d1"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15749096cf6"/>
+         <source file="..\obj\tm_stm32f4_delay.o" lastModified="1574909e630"/>
+         <source file="..\obj\hd44780.o" lastModified="1574909e6ac"/>
+         <source file="..\obj\tm_stm32f4_onewire.o" lastModified="157490aa9d4"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15749096e52"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15749096eba"/>
+         <source file="..\obj\syscalls.o" lastModified="15749096f08"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="15749096f7a"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="15749096fca"/>
+         <source file="..\obj\misc.o" lastModified="15749097027"/>
+         <source file="..\obj\tm_stm32f4_gpio.o" lastModified="157490aaa3a"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\pawel\Documents\CoIDE\test\cmsis -I..\..\..\..\..\Users\pawel\Documents\CoIDE -I..\..\..\..\..\Users\pawel\Documents -I..\..\..\..\..\Users\pawel\Documents\CoIDE\test\tm -I..\..\..\..\..\Users\pawel\Documents\CoIDE\test\cmsis_lib -I..\..\..\..\..\Users\pawel\Documents\CoIDE\test\cmsis_lib\include -I..\..\..\..\..\Users\pawel\Documents\CoIDE\test -I..\..\..\..\..\Users\pawel\Documents\CoIDE\test\cmsis_boot -I..\..\..\..\..\Users\pawel\Documents\CoIDE\test\tm\include">
+      <target file="stm32f4xx_tim.o" lastModified="1573f7cb16a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="15720044603"/>
+      </target>
+      <target file="tm_stm32f4_timer_properties.o" lastModified="1573f7cb0ad">
+         <source file="..\..\..\tm\source\tm_stm32f4_timer_properties.c" lastModified="15720044626"/>
+      </target>
+      <target file="tm_stm32f4_hd44780.o" lastModified="1573f7caaf3">
+         <source file="..\..\..\tm\source\tm_stm32f4_hd44780.c" lastModified="15720044620"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="1573f7cab62">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15720044605"/>
+      </target>
+   </processor>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\pawel\Documents\CoIDE\new\beerarm\cmsis_lib -I..\..\..\..\..\Users\pawel\Documents\CoIDE -I..\..\..\..\..\Users\pawel\Documents\CoIDE\new\beerarm -I..\..\..\..\..\Users\pawel\Documents\CoIDE\new\beerarm\cmsis_boot -I..\..\..\..\..\Users\pawel\Documents\CoIDE\new -I..\..\..\..\..\Users\pawel\Documents\CoIDE\new\beerarm\cmsis_lib\include -I..\..\..\..\..\Users\pawel\Documents\CoIDE\new\beerarm\cmsis -I..\..\..\..\..\Users\pawel\Documents\CoIDE\new\beerarm\tm\include -I..\..\..\..\..\Users\pawel\Documents\CoIDE\new\beerarm\tm">
+      <target file="stm32f4xx_exti.o" lastModified="15749096fca">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="1572596a277"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="15749096e52">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="157200445fc"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="15749096baa">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="15725972392"/>
+      </target>
+      <target file="tm_stm32f4_gpio.o" lastModified="157490aaa3a">
+         <source file="..\..\..\tm\source\tm_stm32f4_gpio.c" lastModified="1572004461e"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="15749096c33">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="157200445ea"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="15749096eba">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="157200445f0"/>
+      </target>
+      <target file="tm_stm32f4_ds18b20.o" lastModified="157490aa886">
+         <source file="..\..\..\tm\source\tm_stm32f4_ds18b20.c" lastModified="1572004461c"/>
+      </target>
+      <target file="misc.o" lastModified="15749097027">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1572596dc44"/>
+      </target>
+      <target file="tm_stm32f4_onewire.o" lastModified="157490aa9d4">
+         <source file="..\..\..\tm\source\tm_stm32f4_onewire.c" lastModified="15720044624"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="15749096cf6">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15720044601"/>
+      </target>
+      <target file="syscalls.o" lastModified="15749096f08">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="15720044608"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="15749096f7a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="157200445ff"/>
+      </target>
+      <target file="hd44780.o" lastModified="1574909e6ac">
+         <source file="..\..\..\hd44780.c" lastModified="1573f8aa732"/>
+      </target>
+      <target file="tm_stm32f4_delay.o" lastModified="1574909e630">
+         <source file="..\..\..\tm\source\tm_stm32f4_delay.c" lastModified="1572004461b"/>
+      </target>
+      <target file="main.o" lastModified="157492d54d1">
+         <source file="..\..\..\main.c" lastModified="157492c9be0"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,372 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Users\pawel\Documents\CoIDE\new\beerarm\cmsis_lib /I..\..\..\..\..\Users\pawel\Documents\CoIDE /I..\..\..\..\..\Users\pawel\Documents\CoIDE\new\beerarm /I..\..\..\..\..\Users\pawel\Documents\CoIDE\new\beerarm\cmsis_boot /I..\..\..\..\..\Users\pawel\Documents\CoIDE\new /I..\..\..\..\..\Users\pawel\Documents\CoIDE\new\beerarm\cmsis_lib\include /I..\..\..\..\..\Users\pawel\Documents\CoIDE\new\beerarm\cmsis /I..\..\..\..\..\Users\pawel\Documents\CoIDE\new\beerarm\tm\include /I..\..\..\..\..\Users\pawel\Documents\CoIDE\new\beerarm\tm">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="157200445fc">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="15725972391">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="1572596dc43">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\tm\include\defines.h" lastModified="15725b01b5a">
+      </source>
+      <source file="..\..\..\tm\source\tm_stm32f4_ds18b20.c" lastModified="1572004461c">
+         <include file="..\..\..\tm\include\tm_stm32f4_ds18b20.h"/>
+      </source>
+      <source file="..\..\..\tm\include\tm_stm32f4_gpio.h" lastModified="15720044610">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\tm\include\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="15725972392">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\tm\include\tm_stm32f4_onewire.h" lastModified="15720044612">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\tm\include\defines.h"/>
+         <include file="..\..\..\tm\include\tm_stm32f4_delay.h"/>
+         <include file="..\..\..\tm\include\tm_stm32f4_gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1572596dc44">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15720044601">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="157200445f7">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\tm\source\tm_stm32f4_onewire.c" lastModified="15720044624">
+         <include file="..\..\..\tm\include\tm_stm32f4_onewire.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="15720044db6">
+      </source>
+      <source file="..\..\..\hd44780.h" lastModified="1573f89ed93">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\tm\include\tm_stm32f4_delay.h"/>
+      </source>
+      <source file="..\..\..\tm\include\attributes.h" lastModified="1572004460a">
+      </source>
+      <source file="..\..\..\tm\include\tm_stm32f4_delay.h" lastModified="157200451c6">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\tm\include\defines.h"/>
+         <include file="..\..\..\tm\include\attributes.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="15720044db5">
+      </source>
+      <source file="..\..\..\hd44780.c" lastModified="1573f8aa732">
+         <include file="..\..\..\hd44780.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="157200449d5">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="1572596a277">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="157200445f4">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="157200445ff">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="157200455a8">
+      </source>
+      <source file="..\..\..\relay.h" lastModified="157492d468e">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h" lastModified="157200445f6">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="15720049027">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="157492c9be0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\tm\include\tm_stm32f4_delay.h"/>
+         <include file="..\..\..\tm\include\tm_stm32f4_ds18b20.h"/>
+         <include file="..\..\..\hd44780.h"/>
+         <include file="..\..\..\button.h"/>
+         <include file="..\..\..\relay.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="15720044db8">
+      </source>
+      <source file="..\..\..\button.h" lastModified="157490af7b5">
+      </source>
+      <source file="..\..\..\tm\source\tm_stm32f4_gpio.c" lastModified="1572004461e">
+         <include file="..\..\..\tm\include\tm_stm32f4_gpio.h"/>
+      </source>
+      <source file="..\..\..\tm\source\tm_stm32f4_delay.c" lastModified="1572004461b">
+         <include file="..\..\..\tm\include\tm_stm32f4_delay.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="157200449cb">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="157200445f2">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="157200445ea">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="157200445f0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\tm\include\tm_stm32f4_ds18b20.h" lastModified="1572004460f">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\tm\include\tm_stm32f4_onewire.h"/>
+         <include file="..\..\..\tm\include\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="1572596a277">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\pawel\Documents\CoIDE\test\cmsis /I..\..\..\..\..\Users\pawel\Documents\CoIDE /I..\..\..\..\..\Users\pawel\Documents /I..\..\..\..\..\Users\pawel\Documents\CoIDE\test\tm /I..\..\..\..\..\Users\pawel\Documents\CoIDE\test\cmsis_lib /I..\..\..\..\..\Users\pawel\Documents\CoIDE\test\cmsis_lib\include /I..\..\..\..\..\Users\pawel\Documents\CoIDE\test /I..\..\..\..\..\Users\pawel\Documents\CoIDE\test\cmsis_boot /I..\..\..\..\..\Users\pawel\Documents\CoIDE\test\tm\include">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="157200445fc">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="15725972391">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="1572596dc43">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\tm\include\defines.h" lastModified="15725b01b5a">
+      </source>
+      <source file="..\..\..\tm\source\tm_stm32f4_ds18b20.c" lastModified="1572004461c">
+         <include file="..\..\..\tm\include\tm_stm32f4_ds18b20.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="15725972392">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\tm\include\tm_stm32f4_onewire.h" lastModified="15720044612">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\tm\include\defines.h"/>
+         <include file="..\..\..\tm\include\tm_stm32f4_delay.h"/>
+         <include file="..\..\..\tm\include\tm_stm32f4_gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1572596dc44">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15720044601">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="157200445f7">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\tm\source\tm_stm32f4_onewire.c" lastModified="15720044624">
+         <include file="..\..\..\tm\include\tm_stm32f4_onewire.h"/>
+      </source>
+      <source file="..\..\..\hd44780.h" lastModified="1573f89ed93">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\tm\include\tm_stm32f4_delay.h"/>
+      </source>
+      <source file="..\..\..\tm\include\attributes.h" lastModified="1572004460a">
+      </source>
+      <source file="..\..\..\hd44780.c" lastModified="1573f8aa732">
+         <include file="..\..\..\hd44780.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="1572596a277">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="157200445f4">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="157200445ff">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h" lastModified="157200445f6">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\tm\source\tm_stm32f4_delay.c" lastModified="1572004461b">
+         <include file="..\..\..\tm\include\tm_stm32f4_delay.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="157200445f2">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="157200445ea">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="157200445f0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\tm\include\tm_stm32f4_ds18b20.h" lastModified="1572004460f">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\tm\include\tm_stm32f4_onewire.h"/>
+         <include file="..\..\..\tm\include\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="1572596a277">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\pawel\Documents\CoIDE /I..\..\..\..\..\Users\pawel\Documents\CoIDE\beerarm\cmsis_lib\include /I..\..\..\..\..\Users\pawel\Documents\CoIDE\beerarm\tm /I..\..\..\..\..\Users\pawel\Documents\CoIDE\beerarm /I..\..\..\..\..\Users\pawel\Documents\CoIDE\beerarm\tm\include /I..\..\..\..\..\Users\pawel\Documents\CoIDE\beerarm\cmsis_lib /I..\..\..\..\..\Users\pawel\Documents\CoIDE\beerarm\cmsis_boot /I..\..\..\..\..\Users\pawel\Documents\CoIDE\beerarm\cmsis">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="157200445fc">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="15725972391">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="1572596dc43">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\tm\include\defines.h" lastModified="15725b01b5a">
+      </source>
+      <source file="..\..\..\tm\source\tm_stm32f4_ds18b20.c" lastModified="1572004461c">
+         <include file="..\..\..\tm\include\tm_stm32f4_ds18b20.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="15725972392">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\tm\include\tm_stm32f4_onewire.h" lastModified="15720044612">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\tm\include\defines.h"/>
+         <include file="..\..\..\tm\include\tm_stm32f4_delay.h"/>
+         <include file="..\..\..\tm\include\tm_stm32f4_gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1572596dc44">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15720044601">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="157200445f7">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\tm\source\tm_stm32f4_onewire.c" lastModified="15720044624">
+         <include file="..\..\..\tm\include\tm_stm32f4_onewire.h"/>
+      </source>
+      <source file="..\..\..\tm\include\attributes.h" lastModified="1572004460a">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="1572596a277">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="157200445f4">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="157200445ff">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h" lastModified="157200445f6">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\tm\source\tm_stm32f4_delay.c" lastModified="1572004461b">
+         <include file="..\..\..\tm\include\tm_stm32f4_delay.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="157200445f2">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="157200445ea">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="157200445f0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\tm\include\tm_stm32f4_ds18b20.h" lastModified="1572004460f">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\tm\include\tm_stm32f4_onewire.h"/>
+         <include file="..\..\..\tm\include\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="1572596a277">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\pawel\Documents\CoIDE\test\cmsis /I..\..\..\..\..\Users\pawel\Documents\CoIDE /I..\..\..\..\..\Users\pawel\Documents\CoIDE\test\tm /I..\..\..\..\..\Users\pawel\Documents\CoIDE\test\cmsis_lib /I..\..\..\..\..\Users\pawel\Documents\CoIDE\test\cmsis_lib\include /I..\..\..\..\..\Users\pawel\Documents\CoIDE\test /I..\..\..\..\..\Users\pawel\Documents\CoIDE\test\cmsis_boot /I..\..\..\..\..\Users\pawel\Documents\CoIDE\test\tm\include">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="157200445fc">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="15725972391">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="1572596dc43">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\tm\include\defines.h" lastModified="15725b01b5a">
+      </source>
+      <source file="..\..\..\tm\source\tm_stm32f4_ds18b20.c" lastModified="1572004461c">
+         <include file="..\..\..\tm\include\tm_stm32f4_ds18b20.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="15725972392">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\tm\include\tm_stm32f4_onewire.h" lastModified="15720044612">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\tm\include\defines.h"/>
+         <include file="..\..\..\tm\include\tm_stm32f4_delay.h"/>
+         <include file="..\..\..\tm\include\tm_stm32f4_gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1572596dc44">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15720044601">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="157200445f7">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\tm\source\tm_stm32f4_onewire.c" lastModified="15720044624">
+         <include file="..\..\..\tm\include\tm_stm32f4_onewire.h"/>
+      </source>
+      <source file="..\..\..\tm\include\attributes.h" lastModified="1572004460a">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="1572596a277">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="157200445f4">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="157200445ff">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h" lastModified="157200445f6">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\tm\source\tm_stm32f4_delay.c" lastModified="1572004461b">
+         <include file="..\..\..\tm\include\tm_stm32f4_delay.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="157200445f2">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="157200445ea">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="157200445f0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\tm\include\tm_stm32f4_ds18b20.h" lastModified="1572004460f">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\tm\include\tm_stm32f4_onewire.h"/>
+         <include file="..\..\..\tm\include\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="1572596a277">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+      </source>
+   </includePath>
+</dependencies>
